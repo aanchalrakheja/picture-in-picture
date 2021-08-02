@@ -1,0 +1,89 @@
+html{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    min-height:100vh;
+    background:rgba(0,0,0,0.4);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    cursor: pointer;
+    outline:none;
+    height:50px;
+    width:120px;
+    text-align:center;
+    background-color:grey;
+    border:2px solid black;
+    font-size:20px;
+    letter-spacing: 3px;
+    border-radius:5px;
+    box-shadow:inset 0px 10px 10px -10px rgba(0,0,0,0.8);
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.8);
+    margin:10px;
+}
+
+#exit{
+    cursor: pointer;
+    outline:none;
+    height:50px;
+    width:120px;
+    text-align:center;
+    background-color:grey;
+    border:2px solid black;
+    font-size:20px;
+    letter-spacing: 3px;
+    border-radius:5px;
+    box-shadow:inset 0px 10px 10px -10px rgba(0,0,0,0.8);
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.8);
+    margin:10px;
+}
+
+#select{
+    margin:10px;
+    cursor: pointer;
+    outline:none;
+    height:50px;
+    width:120px;
+    text-align:center;
+    background-color:grey;
+    border:2px solid black;
+    font-size:20px;
+    letter-spacing: 3px;
+    border-radius:5px;
+    box-shadow:inset 0px 10px 10px -10px rgba(0,0,0,0.8);
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+#button:hover{
+    transform:translate(2px,2px);
+    box-shadow:3px 3px 2px 0px rgba(0,0,0,0.8);
+}
+/* active pseudo class is used to tell what should happen when the button is clicked */
+#button:active{
+    background-color:black;
+    color:white;
+}
+
+#select:hover{
+    transform:translate(2px,2px);
+    box-shadow:3px 3px 2px 0px rgba(0,0,0,0.8);
+}
+/* active pseudo class is used to tell what should happen when the button is clicked */
+#select:active{
+    background-color:black;
+    color:white;
+}
+
+#exit:hover{
+    transform:translate(2px,2px);
+    box-shadow:3px 3px 2px 0px rgba(0,0,0,0.8);
+}
+/* active pseudo class is used to tell what should happen when the button is clicked */
+#exit:active{
+    background-color:black;
+    color:white;
+}
+
